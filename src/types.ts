@@ -1,3 +1,8 @@
 export type Episode = {
-  name: string;
+  title: string;
+  description: string;
+  date: string;
+  season: number;
+  episode: number;
+  released: boolean;
 };
