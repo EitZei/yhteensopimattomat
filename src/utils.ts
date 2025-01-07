@@ -3,3 +3,9 @@ export function leftPad(source: string, length: number, pad: string) {
     [...Array(length - source.length).keys()].map(() => pad).join("") + source
   );
 }
+
+export function formatDate(dateString: string) {
+  const date = new Date(dateString);
+
+  return `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
+}

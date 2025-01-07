@@ -1,82 +1,66 @@
 [
-    {
-        "title": "Et sed",
-        "description": "Vitae et aut est et ea. Optio in qui beatae sunt et possimus adipisci. Occaecati corrupti quos necessitatibus.",
-        "date": "1981-04-01",
-        "season": 1,
-        "episode": 10,
-        "released": false
-    },
-    {
-        "title": "Architecto voluptatem",
-        "description": "Inventore ad voluptas tempore impedit quia corporis nihil provident. Voluptatem soluta cumque illum fugit sed ipsum sit quidem. Vero doloremque ducimus necessitatibus provident animi optio.",
-        "date": "1992-04-11",
-        "season": 1,
-        "episode": 9,
-        "released": false
-    },
-    {
-        "title": "Cupiditate officia sint",
-        "description": "Iusto enim nobis aut odio assumenda. Eum dolore consectetur adipisci.",
-        "date": "1971-12-12",
-        "season": 1,
-        "episode": 8,
-        "released": false
-    },
-    {
-        "title": "Voluptate facilis",
-        "description": "Impedit magni molestiae unde asperiores ut nulla. Nobis ut inventore.",
-        "date": "2004-06-01",
-        "season": 1,
-        "episode": 7,
-        "released": false
-    },
-    {
-        "title": "Aut nobis",
-        "description": "Quia qui enim perspiciatis et. Unde ea sequi officiis aut et et enim.",
-        "date": "2001-11-22",
-        "season": 1,
-        "episode": 6,
-        "released": true
-    },
-    {
-        "title": "Facilis harum",
-        "description": "Quam quae non ut quia itaque. Quam est accusamus aut. Quibusdam doloremque et reprehenderit quo atque nemo in.",
-        "date": "2014-04-17",
-        "season": 1,
-        "episode": 5,
-        "released": true
-    },
-    {
-        "title": "Asperiores minima",
-        "description": "Quis non optio. Aspernatur nam explicabo sunt vero consequatur omnis exercitationem. Veritatis officia mollitia aut perspiciatis nostrum. Ratione quia reiciendis culpa accusantium atque voluptas dolores.",
-        "date": "1987-12-13",
-        "season": 1,
-        "episode": 4,
-        "released": true
-    },
-    {
-        "title": "Sed sunt porro",
-        "description": "Sed reprehenderit molestiae ut exercitationem hic nostrum. Aut aut qui quia incidunt enim dolorem. Et totam animi vel autem. Provident recusandae illum voluptatum molestiae. Sint nam quidem fuga assumenda quaerat et quia beatae commodi.",
-        "date": "1979-04-01",
-        "season": 1,
-        "episode": 3,
-        "released": true
-    },
-    {
-        "title": "Eveniet debitis tenetur",
-        "description": "Itaque quibusdam ut dolorem autem hic illum. Laboriosam iste quis. Architecto enim totam. Ipsa eveniet quis quos cum.",
-        "date": "1995-12-08",
-        "season": 1,
-        "episode": 2,
-        "released": true
-    },
-    {
-        "title": "Aperiam velit dolorem",
-        "description": "Laudantium eum alias aperiam est consequatur veniam nostrum omnis. Fugit quidem doloremque ut quam voluptatem. Nihil reiciendis saepe tempore necessitatibus sed praesentium. Voluptatem deleniti nostrum labore consequatur. Nesciunt deleniti earum vero voluptates animi beatae.",
-        "date": "1980-02-15",
-        "season": 1,
-        "episode": 1,
-        "released": true
-    }
+  {
+    "title": "Toimivasta tiimistä toimivaan tietojärjestelmään",
+    "description": "",
+    "date": "2025-06-10",
+    "season": 1,
+    "episode": 8,
+    "released": false
+  },
+  {
+    "title": "Tietojärjestelmät pilaavat kaiken",
+    "description": "",
+    "date": "2025-05-27",
+    "season": 1,
+    "episode": 7,
+    "released": false
+  },
+  {
+    "title": "Millaisia ihmisiä IT-alalle eksyy ja miksi liikaa insinöörejä on ongelmallista?",
+    "description": "",
+    "date": "2025-05-13",
+    "season": 1,
+    "episode": 6,
+    "released": false
+  },
+  {
+    "title": "Älykkäät naiset ovat uhka miehille",
+    "description": "",
+    "date": "2025-04-29",
+    "season": 1,
+    "episode": 5,
+    "released": false
+  },
+  {
+    "title": "Koulutus, lukutaito ja lapset yhteiskunnassa",
+    "description": "",
+    "date": "2025-04-15",
+    "season": 1,
+    "episode": 4,
+    "released": false
+  },
+  {
+    "title": "Kuluttajaidentiteetti",
+    "description": "",
+    "date": "2025-04-01",
+    "season": 1,
+    "episode": 3,
+    "released": true
+  },
+  {
+    "title": "Onko politiikka rikki?",
+    "description": "",
+    "date": "2025-03-18",
+    "season": 1,
+    "episode": 2,
+    "released": true
+  },
+  {
+    "title": "Miksi ihmiset eivät osallistu politiikkaan",
+    "description": "",
+    "date": "2025-03-03",
+    "season": 1,
+    "episode": 1,
+    "released": true
+  }
 ]
