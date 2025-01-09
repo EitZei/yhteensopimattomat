@@ -5,4 +5,5 @@ export type Episode = {
   season: number;
   episode: number;
   released: boolean;
+  url?: string;
 };

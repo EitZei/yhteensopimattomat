@@ -1,7 +1,7 @@
 [
   {
     "title": "Toimivasta tiimistä toimivaan tietojärjestelmään",
-    "description": "",
+    "description": "Kauden päätösjakso kokoaa yhteen kautta ja Maija ja Antti miettivät miten niitä tietojärjestelmiä sitten pitäisi rakentaa? Koska lopulta kysymys on ihmisistä, niin keskeisenä kysymyksenä on se, minkälainen tiimi pitäisi kasata, jotta saadaan toimiva lopputulos.",
     "date": "2025-06-10",
     "season": 1,
     "episode": 8,
@@ -9,7 +9,7 @@
   },
   {
     "title": "Tietojärjestelmät pilaavat kaiken",
-    "description": "",
+    "description": "\"Joo tähän ohjelmaan vaan pitää kirjoittaa tähän kohtaan jotain\" Onko sinullakin sellainen tunne, että tietokoneita ja niiden ohjelmia ei ole rakennettu meitä vaan joitakin muita tarkoituksia varten? Miltä se tuntuu kun sinut yritetään digitalisoida pois?",
     "date": "2025-05-27",
     "season": 1,
     "episode": 7,
@@ -17,7 +17,7 @@
   },
   {
     "title": "Millaisia ihmisiä IT-alalle eksyy ja miksi liikaa insinöörejä on ongelmallista?",
-    "description": "",
+    "description": "Ajattele mielessäsi stereotyyppinen IT-alan työntekijä? Miltä hän näyttää, missä hän on käynyt koulunsa, mitä hän tekee vapaa-ajallaan? IT-alan aikaansaannokset vaikuttavat suureen osaan päivästämme, mutta minkälaiset ihmiset niitä tekevät ja onko sillä vaikutusta lopputulokseen?",
     "date": "2025-05-13",
     "season": 1,
     "episode": 6,
@@ -25,7 +25,7 @@
   },
   {
     "title": "Älykkäät naiset ovat uhka miehille",
-    "description": "",
+    "description": "Onko mies ja älykäs nainen aina lupaus konfliktista? Mies ja älykäs nainen yrittävät ymmärtää ilmiötä. Onko taustalla naisviha, oma epävarmuus vai jotain monimutkaisempaa?",
     "date": "2025-04-29",
     "season": 1,
     "episode": 5,
@@ -33,7 +33,7 @@
   },
   {
     "title": "Koulutus, lukutaito ja lapset yhteiskunnassa",
-    "description": "",
+    "description": "Ovatko lapset vain yhteiskunnallisen toiminnan kohteita? Objekteja, joita täytyy kouluttaa, hoivata ja suojella. Vai onko lapsillakin oikeus osallistua? Miten se näkyy? Miten huolissaan meidän tulisi olla lukutaidon laskemisesta?",
     "date": "2025-04-15",
     "season": 1,
     "episode": 4,
@@ -41,26 +41,29 @@
   },
   {
     "title": "Kuluttajaidentiteetti",
-    "description": "",
+    "description": "Onko kuluttajuudesta muodostunut meille liian keskeinen identiteetti? Katsommeko asioita liiaksi sne linssin läpi joka saa meitä kysymään ainoastaan \"Mitä tässä on minulle?\" Pitäisikö meidän nähdä enemmän vaivaa hyvinvointimme eteen?",
     "date": "2025-04-01",
     "season": 1,
     "episode": 3,
-    "released": true
+    "released": true,
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   },
   {
     "title": "Onko politiikka rikki?",
-    "description": "",
+    "description": "Riitelyä eduskunnassa, väärinymmärtämistä somessa, vahvojen johtajien kaipuu, disinformaatio ja polarisaation aika. Voidaanko yhteisistä asioista sopia, kun kaikki ajavat vain omien viiteryhmiensä etua?",
     "date": "2025-03-18",
     "season": 1,
     "episode": 2,
-    "released": true
+    "released": true,
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   },
   {
-    "title": "Miksi ihmiset eivät osallistu politiikkaan",
-    "description": "",
+    "title": "Miksi ihmiset eivät osallistu politiikkaan?",
+    "description": "Kauden avausjaksossa käsitellään politiikkaan osallistumatta jättämisen syitä. Äänestysaktiivisuus laskee, puolueiden jäsenmäärä vähenee ja ihmiset kertovat, että he eivät seuraa politiikkaa. Miksi yhteisiin asioihin vaikuttaminen ei kiinnosta ihmisiä? Voiko politiikkaan osallistua vain seuraajana?",
     "date": "2025-03-03",
     "season": 1,
     "episode": 1,
-    "released": true
+    "released": true,
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   }
 ]

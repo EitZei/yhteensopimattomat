@@ -13,6 +13,9 @@ export default function EpisodeListItem({ episode }: Props) {
         {leftPad(episode.episode.toString(), 2, "0")} {episode.title}
       </h2>
       <p>{episode.description}</p>
+      <p>
+        <a href={episode.url}>Kuuntele</a>
+      </p>
       <p>{formatDate(episode.date)}</p>
     </div>
   );
