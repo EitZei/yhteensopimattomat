@@ -1,3 +1,4 @@
+import { newsletterUrl } from "@/settings";
 import Link from "next/link";
 
 export default function Tietoja() {
@@ -10,10 +11,7 @@ export default function Tietoja() {
       <p className="mb-4">
         Voit tukea podcastin tekoa kuuntelemalla sitä, kertomalla siitä
         kaverille,{" "}
-        <a
-          className="text-cyan-600 hover:underline"
-          href="https://www.google.com"
-        >
+        <a className="text-cyan-600 hover:underline" href={newsletterUrl}>
           tilaamalla uutiskirjeemme
         </a>{" "}
         tai liittymälle{" "}

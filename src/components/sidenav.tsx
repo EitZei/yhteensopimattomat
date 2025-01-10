@@ -1,3 +1,4 @@
+import { newsletterUrl } from "@/settings";
 import Link from "next/link";
 
 export default function Sidenav() {
@@ -37,7 +38,7 @@ export default function Sidenav() {
       </a>
 
       <a
-        href="https://www.google.com"
+        href={newsletterUrl}
         className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
         style={{ backgroundColor: "rgb(53, 92, 193)" }}
       >
