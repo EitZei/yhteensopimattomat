@@ -6,7 +6,7 @@ export default function Tietoja() {
     <main>
       <h1 className="text-2xl mb-4">Mikä Yhteensopimattomat?</h1>
       <p className="mb-4">Yhteensopimattomat on Maijan ja Antin podcast...</p>
-      <p className="mb-4">Maijan on...</p>
+      <p className="mb-4">Maija on...</p>
       <p className="mb-4">Antti on...</p>
       <p className="mb-4">
         Voit tukea podcastin tekoa kuuntelemalla sitä, kertomalla siitä
