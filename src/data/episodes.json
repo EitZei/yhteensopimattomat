@@ -1,6 +1,6 @@
 [
   {
-    "title": "Toimivasta tiimistä toimivaan tietojärjestelmään",
+    "title": "Miten tehdään toimivia tietojärjestelmiä?",
     "description": "Kauden päätösjakso kokoaa yhteen kautta ja Maija ja Antti miettivät miten niitä tietojärjestelmiä sitten pitäisi rakentaa? Koska lopulta kysymys on ihmisistä, niin keskeisenä kysymyksenä on se, minkälainen tiimi pitäisi kasata, jotta saadaan toimiva lopputulos.",
     "date": "2025-06-10",
     "season": 1,
@@ -8,7 +8,7 @@
     "released": false
   },
   {
-    "title": "Tietojärjestelmät pilaavat kaiken",
+    "title": "Pilaako digitalisaatio kaiken?",
     "description": "\"Joo tähän ohjelmaan vaan pitää kirjoittaa tähän kohtaan jotain\" Onko sinullakin sellainen tunne, että tietokoneita ja niiden ohjelmia ei ole rakennettu meitä vaan joitakin muita tarkoituksia varten? Miltä se tuntuu kun sinut yritetään digitalisoida pois?",
     "date": "2025-05-27",
     "season": 1,
@@ -16,7 +16,7 @@
     "released": false
   },
   {
-    "title": "Millaisia ihmisiä IT-alalle eksyy ja miksi liikaa insinöörejä on ongelmallista?",
+    "title": "Miksi IT-alalle tarvitaan muitakin kuin insinöörejä?",
     "description": "Ajattele mielessäsi stereotyyppinen IT-alan työntekijä? Miltä hän näyttää, missä hän on käynyt koulunsa, mitä hän tekee vapaa-ajallaan? IT-alan aikaansaannokset vaikuttavat suureen osaan päivästämme, mutta minkälaiset ihmiset niitä tekevät ja onko sillä vaikutusta lopputulokseen?",
     "date": "2025-05-13",
     "season": 1,
@@ -24,24 +24,24 @@
     "released": false
   },
   {
-    "title": "Älykkäät naiset ovat uhka miehille",
-    "description": "Onko mies ja älykäs nainen aina lupaus konfliktista? Mies ja älykäs nainen yrittävät ymmärtää ilmiötä. Onko taustalla naisviha, oma epävarmuus vai jotain monimutkaisempaa?",
+    "title": "Ovatko älykkäät naiset uhka miehille?",
+    "description": "Onko mies ja älykäs nainen aina lupaus konfliktista? Maija ja Antti yrittävät ymmärtää ilmiötä. Onko taustalla naisviha, oma epävarmuus vai jotain monimutkaisempaa?",
     "date": "2025-04-29",
     "season": 1,
     "episode": 5,
     "released": false
   },
   {
-    "title": "Koulutus, lukutaito ja lapset yhteiskunnassa",
-    "description": "Ovatko lapset vain yhteiskunnallisen toiminnan kohteita? Objekteja, joita täytyy kouluttaa, hoivata ja suojella. Vai onko lapsillakin oikeus osallistua? Miten se näkyy? Miten huolissaan meidän tulisi olla lukutaidon laskemisesta?",
+    "title": "Mihin lapset voivat vaikuttaa?",
+    "description": "Ovatko lapset vain yhteiskunnallisen toiminnan kohteita? Objekteja, joita täytyy kouluttaa, hoivata ja suojella. Vai onko lapsillakin oikeus osallistua? Miten se näkyy?",
     "date": "2025-04-15",
     "season": 1,
     "episode": 4,
     "released": false
   },
   {
-    "title": "Kuluttajaidentiteetti",
-    "description": "Onko kuluttajuudesta muodostunut meille liian keskeinen identiteetti? Katsommeko asioita liiaksi sne linssin läpi joka saa meitä kysymään ainoastaan \"Mitä tässä on minulle?\" Pitäisikö meidän nähdä enemmän vaivaa hyvinvointimme eteen?",
+    "title": "Mikä ihmeen kuluttajaidentiteetti?",
+    "description": "Onko kuluttajuudesta muodostunut meille liian keskeinen identiteetti? Voiko kaiken ostaa palveluna? Katsommeko asioita liiaksi sen linssin läpi, joka saa meitä kysymään ainoastaan \"Mitä tässä on minulle?\"",
     "date": "2025-04-01",
     "season": 1,
     "episode": 3,
@@ -49,8 +49,8 @@
     "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   },
   {
-    "title": "Onko politiikka rikki?",
-    "description": "Riitelyä eduskunnassa, väärinymmärtämistä somessa, vahvojen johtajien kaipuu, disinformaatio ja polarisaation aika. Voidaanko yhteisistä asioista sopia, kun kaikki ajavat vain omien viiteryhmiensä etua?",
+    "title": "Milloin on oikea aika vaikuttaa?",
+    "description": "Aiemmassa jaksossa puhuttiin yhteisistä asioista ja niiden näkymisestä tai näkymättömyydestä arjessa. Tässä jaksossa pureudutaan siihen, mitkä asiat meitä arjessa hiertävät ja missä juuri niistä asioista päätetään ja miten niihin päätöksiin sitten voi vaikuttaa? Vai voiko? Voisiko päätöksenteko muuttua?",
     "date": "2025-03-18",
     "season": 1,
     "episode": 2,
