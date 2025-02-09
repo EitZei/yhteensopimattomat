@@ -45,7 +45,7 @@
     "date": "2025-04-01",
     "season": 1,
     "episode": 3,
-    "released": true,
+    "released": false,
     "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   },
   {
@@ -54,12 +54,12 @@
     "date": "2025-03-18",
     "season": 1,
     "episode": 2,
-    "released": true,
+    "released": false,
     "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
   },
   {
-    "title": "Miksi ihmiset eivät osallistu politiikkaan?",
-    "description": "Kauden avausjaksossa käsitellään politiikkaan osallistumatta jättämisen syitä. Äänestysaktiivisuus laskee, puolueiden jäsenmäärä vähenee ja ihmiset kertovat, että he eivät seuraa politiikkaa. Miksi yhteisiin asioihin vaikuttaminen ei kiinnosta ihmisiä? Voiko politiikkaan osallistua vain seuraajana?",
+    "title": "Miksi minä? Miksei joku muu?",
+    "description": "Kunta- ja aluevaalien alla on loistava aika pohtia, miten yhteisten asioiden hoitaminen omassa arjessa näkyy vai näkyykö? Pitäisikö sen edes näkyä? Miksi olisi ongelma, että joku muu päättää tai hoitaa enkä minä?",
     "date": "2025-03-03",
     "season": 1,
     "episode": 1,
