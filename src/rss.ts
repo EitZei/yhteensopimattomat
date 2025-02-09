@@ -67,7 +67,11 @@ export default async function generateRssFeed(episodes: Episode[]) {
         type: "audio/mpeg",
         size: episode.sizeBytes!,
       }, // optional enclosure
-      custom_elements: [{ "itunes:explicit": "no" }],
+      custom_elements: [
+        { "itunes:explicit": "no" },
+        { "itunes:season": episode.season },
+        { "itunes:episode": episode.episode },
+      ],
     });
   });
 
