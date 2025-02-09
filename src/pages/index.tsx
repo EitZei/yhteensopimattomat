@@ -3,6 +3,7 @@ import EpisodeListItem from "../components/episode-list-item";
 import PlannedEpisodeListItem from "../components/planned-episode-list-item";
 import fs from "node:fs/promises";
 import path from "node:path";
+import generateRssFeed from "../rss";
 
 type Props = {
   latestEpisode?: Episode;
@@ -20,6 +21,8 @@ export async function getStaticProps(): Promise<{ props: Props }> {
 
   const episodes: Episode[] = JSON.parse(episodeJson);
   const releasedEpisodes = episodes.filter((episode) => episode.released);
+
+  generateRssFeed(releasedEpisodes);
 
   return {
     props: {
@@ -41,7 +44,7 @@ export default function Index({
       {latestEpisode ? (
         <section id="latestEpisode" className="mb-8">
           <h1 className="text-2xl">Viimeisin jakso</h1>
-          <EpisodeListItem episode={latestEpisode} />
+          <EpisodeListItem episode={latestEpisode} isLatest={true} />
         </section>
       ) : null}
       {plannedEpisodes.length > 0 ? (
@@ -61,7 +64,7 @@ export default function Index({
           <h1 className="text-2xl">Julkaistut jaksot</h1>
           {releasedEpisodes.map((episode, i) => (
             <div key={`episode-${i}`}>
-              <EpisodeListItem episode={episode} />
+              <EpisodeListItem episode={episode} isLatest={false} />
             </div>
           ))}
         </section>

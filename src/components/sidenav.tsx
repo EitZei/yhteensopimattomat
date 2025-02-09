@@ -1,13 +1,13 @@
 import { newsletterUrl } from "@/settings";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/yhteensopimattomat.png";
 
 export default function Sidenav() {
   return (
     <div className="flex flex-col justify-items-center">
       <Link href="/">
-        <h1 className="text-4xl text-center lg:text-left mb-2">
-          Yhteensopimattomat
-        </h1>
+        <Image src={logo} alt="Yhteensopimattomat" />
       </Link>
       <p className="mb-4">
         Kaikkea tai kaikkia ei ole tarkoitettu olemaan yhdessä, tuntumaan

@@ -1,17 +1,20 @@
 import { Episode } from "../types";
-import { leftPad, formatDate } from "../utils";
+import { formatDate, episodeCode } from "../utils";
 
 type Props = {
   episode: Episode;
+  isLatest: boolean;
 };
 
-export default function EpisodeListItem({ episode }: Props) {
+export default function EpisodeListItem({ episode, isLatest }: Props) {
   return (
     <div className="mb-4">
       <div className="mb-2">
-        <h2 className="font-bold">
-          S{leftPad(episode.season.toString(), 2, "0")}E
-          {leftPad(episode.episode.toString(), 2, "0")} {episode.title}
+        <h2
+          className="font-bold"
+          id={isLatest ? "latest" : episodeCode(episode)}
+        >
+          {episodeCode(episode)} {episode.title}
         </h2>
         <p className="text-xs text-slate-600">
           Julkaistu {formatDate(episode.date)}
