@@ -2,23 +2,17 @@ import { newsletterUrl } from "@/settings";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/yhteensopimattomat-logo.png";
+import { podcastDescription } from "../static";
 
 export default function Sidenav() {
   return (
     <div className="flex flex-col justify-items-center">
       <Link href="/">
-        <h1 className="text-4xl text-center lg:text-left mb-2">
-          Yhteensopimattomat
-        </h1>
+        <h1 className="text-4xl text-center">Yhteensopimattomat</h1>
+        <h2 className="text-2xl text-center mb-2">podcast</h2>
         <Image src={logo} alt="Yhteensopimattomat" priority={true} />
       </Link>
-      <p className="mb-4">
-        Kaikkea tai kaikkia ei ole tarkoitettu olemaan yhdessä, tuntumaan
-        samalta tai toimimaan samoin. Samalla ristiriita on luonnonvoima, joka
-        paljastaa ennalta-aavistamattomia ajattelun uria ja luo pysäyttämätöntä
-        liikettä. Kenties lopulta tuo voima vaikuttaa myös sen vapauttaneisiin
-        ja syntyy uutta. Yhteensopivampaa.
-      </p>
+      <p className="mb-4">{podcastDescription}</p>
 
       {false ? (
         <p className="mb-8">

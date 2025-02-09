@@ -24,6 +24,7 @@ export default async function generateRssFeed(episodes: Episode[]) {
       itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd",
     },
     custom_elements: [
+      { "itunes:explicit": "no" },
       { "dc:language": "fi" },
       { "itunes:author": "Maija Wirlander, Antti Järvinen" },
       {
