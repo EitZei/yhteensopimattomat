@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+----
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Mitä pilottiin?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Kuvauksen päivittäminen
+Miksi juuri näistä aiheista? Miksi me katsotaan olevamme oikeat ihmiset puhumaan näistä aiheista? Eli miksi nämä aiheet ja miksi me?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Instagram
+Postaus: nyt on pilottipurkissa. Helpotti leikkaamista tämä Maijan Nauru
+Kuva: leikkauspöytä vs mikki
+Kujeileva tone of voice
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Nettisivulle
+- Tulevat jaksot käänteiseen järjestykseen
+- Playeri
+- Logosta teksti erilleen
+- Puuttuuko joku jakso
 
-## Learn More
+# Jakaminen
+- työpaikan Signal 
+- Pirkkalan Vihreät
+- Miialle
+- Omat metapodiverkostot
 
-To learn more about Next.js, take a look at the following resources:
+----
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Myöhemmin
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Siluettikuva
+- 3 kuvaa: 
+- alpha musta ja valkoinen, tiukka rajaus
+- taustalla oleva 1400x1400, jossa teksti mukana
+- fonttina impact mutta voisi olla joku muu
 
-## Deploy on Vercel
+# visuaalinen ilme
+- Mieti tätä?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+----
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Miksi?
+
+Mitä?
+
+Miksi tämä nimi?
+
+Miksi juuri teitä kannattaisi kuunnella?
+
+Tarina siitä miten tämä podi syntyi...
+
+Vaihtoehdot kuvauksiksi
+
+#1 Tarina - mistä tämä podi syntyi
+
+#2 Miksi juuri näistä aiheista? Miksi me katsotaan olevamme oikeat ihmiset puhumaan näistä aiheista? Eli miksi nämä aiheet ja miksi me?
+
+#3 Mistä me puhutaan?
