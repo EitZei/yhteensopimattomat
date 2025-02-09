@@ -20,12 +20,19 @@ export default function EpisodeListItem({ episode, isLatest }: Props) {
           Julkaistu {formatDate(episode.date)}
         </p>
       </div>
-      <p>{episode.description}</p>
-      <p>
-        <a className="text-cyan-600 hover:underline" href={episode.url}>
-          Kuuntele
-        </a>
-      </p>
+      <p className="mb-2">{episode.description}</p>
+      <div className="flex justify-between items-center">
+        <audio controls src={episode.url}></audio>
+        <p>
+          <a
+            className="text-cyan-600 hover:underline"
+            href={episode.url}
+            download={true}
+          >
+            Lataa jakso (mp3)
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

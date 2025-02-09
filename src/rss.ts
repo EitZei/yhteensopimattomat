@@ -37,7 +37,14 @@ export default async function generateRssFeed(episodes: Episode[]) {
         "itunes:category": [
           {
             _attr: {
-              text: "Society &amp; Culture",
+              text: "Education",
+            },
+          },
+          {
+            "itunes:category": {
+              _attr: {
+                text: "Self-Improvement",
+              },
             },
           },
         ],
@@ -54,7 +61,12 @@ export default async function generateRssFeed(episodes: Episode[]) {
       description: episode.description,
       url: `${siteUrl}/#${episodeCode(episode)}`,
       date: episode.date,
-      enclosure: { url: episode.url!, type: "audio/mpeg" }, // optional enclosure
+      enclosure: {
+        url: episode.url!,
+        type: "audio/mpeg",
+        size: episode.sizeBytes!,
+      }, // optional enclosure
+      custom_elements: [{ "itunes:explicit": "no" }],
     });
   });
 

@@ -1,13 +1,16 @@
 import { newsletterUrl } from "@/settings";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/yhteensopimattomat.png";
+import logo from "../../public/yhteensopimattomat-logo.png";
 
 export default function Sidenav() {
   return (
     <div className="flex flex-col justify-items-center">
       <Link href="/">
-        <Image src={logo} alt="Yhteensopimattomat" />
+        <h1 className="text-4xl text-center lg:text-left mb-2">
+          Yhteensopimattomat
+        </h1>
+        <Image src={logo} alt="Yhteensopimattomat" priority={true} />
       </Link>
       <p className="mb-4">
         Kaikkea tai kaikkia ei ole tarkoitettu olemaan yhdessä, tuntumaan
@@ -16,11 +19,15 @@ export default function Sidenav() {
         liikettä. Kenties lopulta tuo voima vaikuttaa myös sen vapauttaneisiin
         ja syntyy uutta. Yhteensopivampaa.
       </p>
-      <p className="mb-8">
-        <Link className="text-cyan-600 hover:underline" href="/tietoa">
-          Mikä Yhteensopimattomat?
-        </Link>
-      </p>
+
+      {false ? (
+        <p className="mb-8">
+          <Link className="text-cyan-600 hover:underline" href="/tietoa">
+            Mikä Yhteensopimattomat?
+          </Link>
+        </p>
+      ) : null}
+
       <a
         href="https://www.instagram.com/yhteensopimattomat/"
         className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4"
@@ -39,7 +46,7 @@ export default function Sidenav() {
 
       <a
         href={newsletterUrl}
-        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4"
         style={{ backgroundColor: "rgb(53, 92, 193)" }}
       >
         <svg
@@ -57,6 +64,28 @@ export default function Sidenav() {
           />
         </svg>
         Tilaa uutiskirje
+      </a>
+
+      <a
+        href="/yhteensopimattomat.xml"
+        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+        style={{ backgroundColor: "rgb(255, 165, 0)" }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          className="size-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12.75 19.5v-.75a7.5 7.5 0 0 0-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+          />
+        </svg>
+        Podcast RSS
       </a>
     </div>
   );
