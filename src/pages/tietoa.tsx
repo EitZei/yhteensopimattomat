@@ -10,22 +10,10 @@ export default function Tietoja() {
       <p className="mb-4">Antti on...</p>
       <p className="mb-4">
         Voit tukea podcastin tekoa kuuntelemalla sitä, kertomalla siitä
-        kaverille,{" "}
-        <a className="text-cyan-600 hover:underline" href={newsletterUrl}>
-          tilaamalla uutiskirjeemme
-        </a>{" "}
-        tai liittymälle{" "}
-        <a
-          className="text-cyan-600 hover:underline"
-          href="https://www.google.com"
-        >
-          Patreon-tukijaksi
-        </a>
-        .
+        kaverille, <a href={newsletterUrl}>tilaamalla uutiskirjeemme</a> tai
+        liittymälle <a href="https://www.google.com">Patreon-tukijaksi</a>.
       </p>
-      <Link className="text-cyan-600 hover:underline" href="/">
-        Takaisin jaksoihin&hellip;
-      </Link>
+      <Link href="/">Takaisin jaksoihin&hellip;</Link>
     </main>
   );
 }

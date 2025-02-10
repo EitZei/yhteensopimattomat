@@ -24,11 +24,7 @@ export default function EpisodeListItem({ episode, isLatest }: Props) {
       <div className="flex justify-between items-center">
         <audio controls src={episode.url}></audio>
         <p>
-          <a
-            className="text-cyan-600 hover:underline"
-            href={episode.url}
-            download={true}
-          >
+          <a href={episode.url} download={true}>
             Lataa jakso (mp3)
           </a>
         </p>

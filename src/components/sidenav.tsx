@@ -7,7 +7,7 @@ import { podcastDescription } from "../static";
 export default function Sidenav() {
   return (
     <div className="flex flex-col justify-items-center">
-      <Link href="/">
+      <Link href="/" className="text-black hover:no-underline">
         <h1 className="text-4xl text-center">Yhteensopimattomat</h1>
         <h2 className="text-2xl text-center mb-2">podcast</h2>
         <Image src={logo} alt="Yhteensopimattomat" priority={true} />
@@ -16,9 +16,7 @@ export default function Sidenav() {
 
       {false ? (
         <p className="mb-8">
-          <Link className="text-cyan-600 hover:underline" href="/tietoa">
-            Mikä Yhteensopimattomat?
-          </Link>
+          <Link href="/tietoa">Mikä Yhteensopimattomat?</Link>
         </p>
       ) : null}
 
