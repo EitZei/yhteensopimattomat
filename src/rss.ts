@@ -26,7 +26,7 @@ export default async function generateRssFeed(episodes: Episode[]) {
     custom_elements: [
       { "itunes:explicit": "no" },
       { "dc:language": "fi" },
-      { "itunes:author": "Maija Wirlander, Antti Järvinen" },
+      { "itunes:author": "Antti & Maija" },
       {
         "itunes:image": {
           _attr: {
