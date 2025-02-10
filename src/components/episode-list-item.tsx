@@ -17,7 +17,7 @@ export default function EpisodeListItem({ episode, isLatest }: Props) {
           {episodeCode(episode)} {episode.title}
         </h2>
         <p className="text-xs text-slate-600">
-          Julkaistu {formatDate(episode.date)}
+          Julkaistu {formatDate(episode.date!)}
         </p>
       </div>
       <p className="mb-2">{episode.description}</p>
