@@ -4,6 +4,7 @@ import PlannedEpisodeListItem from "../components/planned-episode-list-item";
 import fs from "node:fs/promises";
 import path from "node:path";
 import generateRssFeed from "../rss";
+import Buttons from "@/components/buttons";
 
 type Props = {
   latestEpisode?: Episode;
@@ -93,7 +94,7 @@ export default function Index({
         </section>
       ) : null}
       {releasedEpisodes.length > 0 ? (
-        <section id="releasedEpisodes" className="mb-8 pb-4">
+        <section id="releasedEpisodes" className="mb-4 pb-4">
           <h1 className="text-2xl mb-4">Julkaistut jaksot</h1>
           {releasedEpisodes.map((episode, i) => (
             <div key={`episode-${i}`}>
@@ -102,6 +103,10 @@ export default function Index({
           ))}
         </section>
       ) : null}
+
+      <div className="border-t pt-8 mb-8 block md:hidden">
+        <Buttons />
+      </div>
     </main>
   );
 }

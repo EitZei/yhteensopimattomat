@@ -1,3 +1,13 @@
+export type EpisodeLink = {
+  description: string;
+  url: string;
+};
+
+export type EpisodeTimestamp = {
+  time: string;
+  description: string;
+};
+
 export type Episode = {
   title: string;
   description: string;
@@ -8,4 +18,6 @@ export type Episode = {
 
   url?: string;
   sizeBytes?: number;
+  links?: EpisodeLink[];
+  timestamps?: EpisodeTimestamp[];
 };
