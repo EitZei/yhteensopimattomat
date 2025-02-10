@@ -14,7 +14,7 @@ export default function EpisodeListItem({ episode, isLatest }: Props) {
           className="font-bold"
           id={isLatest ? "latest" : episodeCode(episode)}
         >
-          {episodeCode(episode)} {episode.title}
+          #{episode.episode} {episode.title}
         </h2>
         <p className="text-xs text-slate-600 dark:text-gray-400">
           Julkaistu {formatDate(episode.date!)}

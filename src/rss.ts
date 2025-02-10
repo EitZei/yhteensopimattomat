@@ -58,7 +58,7 @@ export default async function generateRssFeed(episodes: Episode[]) {
   // Add episodes to the feed.
   episodes.forEach((episode) => {
     feed.item({
-      title: episode.title,
+      title: `#${episode.episode} ${episode.title}`,
       description: episode.description,
       url: `${siteUrl}/#${episodeCode(episode)}`,
       date: episode.date!,
