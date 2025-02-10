@@ -21,7 +21,7 @@ export default function EpisodeListItem({ episode, isLatest }: Props) {
         </p>
       </div>
       <p className="mb-2">{episode.description}</p>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center flex-col gap-2 md:flex-row md:gap-0">
         <audio controls src={episode.url}></audio>
         <p>
           <a href={episode.url} download={true}>

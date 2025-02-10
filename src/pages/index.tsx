@@ -54,11 +54,11 @@ export default function Index({
           <h1 className="text-2xl mb-4">Tulevat jaksot</h1>
           <div className="flex flex-wrap justify-between">
             {plannedEpisodes.map((episode, i) => (
-              <div key={`episode-${i}`} className="w-full md:w-5/12">
+              <div key={`episode-${i}`} className="w-full lg:w-5/12">
                 <PlannedEpisodeListItem episode={episode} />
               </div>
             ))}
-            <div className="w-full md:w-5/12 mb-4">
+            <div className="w-full lg:w-5/12 mb-4">
               <div className="mb-2">
                 <h2 className="font-bold">Puuttuko jokin aihe?</h2>
               </div>
