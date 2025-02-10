@@ -68,7 +68,7 @@ export default function Index({
               <p>
                 <a
                   href="https://forms.gle/isPU4suTqztamUje6"
-                  className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg  dark:filter dark:saturate-50"
                   style={{ backgroundColor: "rgb(77, 166, 255)" }}
                 >
                   <svg

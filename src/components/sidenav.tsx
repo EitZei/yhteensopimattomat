@@ -8,8 +8,12 @@ export default function Sidenav() {
   return (
     <div className="flex flex-col justify-items-center">
       <Link href="/" className="text-black hover:no-underline mb-4">
-        <h1 className="text-4xl text-center">Yhteensopimattomat</h1>
-        <h2 className="text-2xl text-center mb-2">podcast</h2>
+        <h1 className="text-4xl text-center dark:text-gray-100">
+          Yhteensopimattomat
+        </h1>
+        <h2 className="text-2xl text-center mb-2 dark:text-gray-100">
+          podcast
+        </h2>
         <Image src={logo} alt="Yhteensopimattomat" priority={true} />
       </Link>
       <p className="mb-4">{podcastDescription}</p>
@@ -22,7 +26,7 @@ export default function Sidenav() {
 
       <a
         href="https://www.instagram.com/yhteensopimattomat/"
-        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4"
+        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4 dark:filter dark:saturate-50"
         style={{ backgroundColor: "rgb(193, 53, 132)" }}
       >
         <svg
@@ -38,7 +42,7 @@ export default function Sidenav() {
 
       <a
         href={newsletterUrl}
-        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4"
+        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg mb-4  dark:filter dark:saturate-50"
         style={{ backgroundColor: "rgb(53, 92, 193)" }}
       >
         <svg
@@ -60,7 +64,7 @@ export default function Sidenav() {
 
       <a
         href="/yhteensopimattomat.xml"
-        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+        className="flex items-center justify-center rounded px-6 py-2.5 text-s font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg dark:filter dark:saturate-50"
         style={{ backgroundColor: "rgb(255, 165, 0)" }}
       >
         <svg
