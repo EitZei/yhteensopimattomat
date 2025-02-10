@@ -1,7 +1,7 @@
 export type Episode = {
   title: string;
   description: string;
-  date: string;
+  date?: string;
   season: number;
   episode: number;
   released: boolean;

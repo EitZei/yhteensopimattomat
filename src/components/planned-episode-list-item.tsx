@@ -11,7 +11,9 @@ export default function PlannedEpisodeListItem({ episode }: Props) {
       <div className="mb-2">
         <h2 className="font-bold">{episode.title}</h2>
         <p className="text-xs text-slate-600">
-          Julkaistaan {formatDate(episode.date)}
+          {episode.date
+            ? `Julkaistaan ${formatDate(episode.date)}`
+            : "Jaksoidea"}
         </p>
       </div>
       <p>{episode.description}</p>

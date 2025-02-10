@@ -61,7 +61,7 @@ export default async function generateRssFeed(episodes: Episode[]) {
       title: episode.title,
       description: episode.description,
       url: `${siteUrl}/#${episodeCode(episode)}`,
-      date: episode.date,
+      date: episode.date!,
       enclosure: {
         url: episode.url!,
         type: "audio/mpeg",
