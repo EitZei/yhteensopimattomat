@@ -27,3 +27,9 @@ body {
 a {
   @apply text-amber-600 hover:underline;
 }
+
+@media (prefers-color-scheme: dark) {
+  a {
+    @apply text-yellow-400 hover:underline;
+  }
+}
