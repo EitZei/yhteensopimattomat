@@ -12,6 +12,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+
+  a {
+    @apply text-yellow-400 hover:underline;
+  }
 }
 
 body {
@@ -21,5 +25,5 @@ body {
 }
 
 a {
-  @apply text-yellow-400 hover:underline;
+  @apply text-amber-600 hover:underline;
 }
