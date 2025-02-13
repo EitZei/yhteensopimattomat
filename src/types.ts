@@ -9,15 +9,29 @@ export type EpisodeTimestamp = {
 };
 
 export type Episode = {
-  title: string;
-  description: string;
-  date?: string;
-  season: number;
-  episode: number;
   released: boolean;
 
-  url?: string;
-  sizeBytes?: number;
-  links?: EpisodeLink[];
-  timestamps?: EpisodeTimestamp[];
+  title: string;
+  description: string;
+  season: number;
+  episode: number;
+
+  date?: string;
 };
+
+export type ReleasedEpisode = Episode & {
+  released: true;
+
+  date: string;
+
+  url: string;
+  sizeBytes: number;
+  links: EpisodeLink[];
+  timestamps: EpisodeTimestamp[];
+};
+
+export function isReleased(
+  episode: Episode | ReleasedEpisode
+): episode is ReleasedEpisode {
+  return (episode as ReleasedEpisode).released === true;
+}

@@ -42,8 +42,7 @@
     "date": "2025-04-01",
     "season": 1,
     "episode": 3,
-    "released": false,
-    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
+    "released": false
   },
   {
     "title": "Milloin on oikea aika vaikuttaa?",
@@ -51,8 +50,7 @@
     "date": "2025-03-18",
     "season": 1,
     "episode": 2,
-    "released": false,
-    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/Mustarastas.mp3"
+    "released": false
   },
   {
     "title": "Miksi minä? Miksei joku muu?",
@@ -70,6 +68,51 @@
       }
     ],
     "timestamps": [
+      {
+        "time": "00:00",
+        "description": "Yhteisöt"
+      },
+      {
+        "time": "01:28",
+        "description": "Luottamuksen merkityksestä"
+      },
+      {
+        "time": "05:25",
+        "description": "It's your ship"
+      },
+      {
+        "time": "08:21",
+        "description": "Kokevatko ihmiset olevansa osa yhteiskuntaa?"
+      },
+      {
+        "time": "12:19",
+        "description": "Esimerkki kaavoituksesta"
+      },
+      {
+        "time": "15:44",
+        "description": "Sitoutuminen yhteisöön"
+      },
+      {
+        "time": "20:22",
+        "description": "Ajalehtimisen helppoudesta"
+      },
+      {
+        "time": "24:50",
+        "description": "Monimuotoisuuden tärkeys päätöksenteossa"
+      },
+      {
+        "time": "29:21",
+        "description": "Ideoiden kasvaminen"
+      },
+      {
+        "time": "42:40",
+        "description": "Yhteisten pelisääntöjen tärkeys"
+      },
+      {
+        "time": "47:26",
+        "description": "Mikä merkitys sillä on kun muut eivät osallistu?"
+      },
+
       {
         "time": "00:20",
         "description": "Antti puhuu sekavia"

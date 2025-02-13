@@ -1,10 +1,10 @@
 import fs from "fs";
 import RSS from "rss";
-import { Episode } from "./types";
+import { ReleasedEpisode } from "./types";
 import { podcastDescription } from "./static";
 import { episodeCode } from "./utils";
 
-export default async function generateRssFeed(episodes: Episode[]) {
+export default async function generateRssFeed(episodes: ReleasedEpisode[]) {
   const feedName = "yhteensopimattomat.xml";
 
   const siteUrl =
@@ -59,13 +59,13 @@ export default async function generateRssFeed(episodes: Episode[]) {
   episodes.forEach((episode) => {
     feed.item({
       title: `#${episode.episode} ${episode.title}`,
-      description: episode.description,
+      description: renderDescription(episode),
       url: `${siteUrl}/#${episodeCode(episode)}`,
-      date: episode.date!,
+      date: episode.date,
       enclosure: {
-        url: episode.url!,
+        url: episode.url,
         type: "audio/mpeg",
-        size: episode.sizeBytes!,
+        size: episode.sizeBytes,
       }, // optional enclosure
       custom_elements: [
         { "itunes:explicit": "no" },
@@ -77,4 +77,32 @@ export default async function generateRssFeed(episodes: Episode[]) {
 
   // Write the RSS feed to a file as XML.
   fs.writeFileSync(`./public/${feedName}`, feed.xml({ indent: true }));
+}
+
+function renderDescription(episode: ReleasedEpisode) {
+  return `
+    <p>
+      ${episode.description}
+    </p>
+    <ul>
+      ${episode.timestamps
+        .map(
+          (timeStamp) => `<li>${timeStamp.time}: ${timeStamp.description}</li>`
+        )
+        .join("\n")}
+    </ul>
+    <p>
+      Jaksossa mainittua:
+    </p>
+    <ul>
+      ${episode.links
+        .map(
+          (link) =>
+            `<li>
+                  <a href=${link.url}>${link.description}</a>
+                </li>`
+        )
+        .join("\n")}
+    </ul>
+  `;
 }

@@ -1,5 +1,5 @@
-import { Episode } from "../types";
-import EpisodeListItem from "../components/episode-list-item";
+import { Episode, isReleased, ReleasedEpisode } from "../types";
+import ReleasedEpisodeListItem from "../components/released-episode-list-item";
 import PlannedEpisodeListItem from "../components/planned-episode-list-item";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -7,8 +7,8 @@ import generateRssFeed from "../rss";
 import Buttons from "@/components/buttons";
 
 type Props = {
-  latestEpisode?: Episode;
-  releasedEpisodes: Episode[];
+  latestEpisode?: ReleasedEpisode;
+  releasedEpisodes: ReleasedEpisode[];
   plannedEpisodes: Episode[];
 };
 
@@ -21,7 +21,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
   );
 
   const episodes: Episode[] = JSON.parse(episodeJson);
-  const releasedEpisodes = episodes.filter((episode) => episode.released);
+  const releasedEpisodes = episodes.filter(isReleased);
 
   generateRssFeed(releasedEpisodes);
 
@@ -47,7 +47,7 @@ export default function Index({
       {latestEpisode ? (
         <section id="latestEpisode" className="mb-8 pb-4 border-b">
           <h1 className="text-2xl mb-4">Viimeisin jakso</h1>
-          <EpisodeListItem episode={latestEpisode} isLatest={true} />
+          <ReleasedEpisodeListItem episode={latestEpisode} isLatest={true} />
         </section>
       ) : null}
       {plannedEpisodes.length > 0 ? (
@@ -98,7 +98,7 @@ export default function Index({
           <h1 className="text-2xl mb-4">Julkaistut jaksot</h1>
           {releasedEpisodes.map((episode, i) => (
             <div key={`episode-${i}`}>
-              <EpisodeListItem episode={episode} isLatest={false} />
+              <ReleasedEpisodeListItem episode={episode} isLatest={false} />
             </div>
           ))}
         </section>
