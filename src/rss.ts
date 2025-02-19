@@ -25,6 +25,7 @@ export default async function generateRssFeed(episodes: ReleasedEpisode[]) {
     },
     custom_elements: [
       { "itunes:explicit": "no" },
+      { "itunes:email": "yhteensopimattomat@vaan.fi" },
       { "dc:language": "fi" },
       { "itunes:author": "Antti & Maija" },
       {
