@@ -36,7 +36,7 @@ export default async function generateRssFeed(episodes: ReleasedEpisode[]) {
       {
         "itunes:image": {
           _attr: {
-            href: `${siteUrl}/yhteensopimattomat.png`,
+            href: "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/yhteensopimattomat.png",
           },
         },
       },
