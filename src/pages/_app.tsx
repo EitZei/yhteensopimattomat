@@ -11,7 +11,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Yhteensopimattomat</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta property="og:title" content="Yhteensopimattomat" />
-        <meta property="og:description" content={podcastDescription} />
+        <meta
+          property="og:description"
+          content={podcastDescription.join(" ")}
+        />
+        <meta property="og:image" content="/yhteensopimattomat-logo.png" />
       </Head>
       <Component {...pageProps} />
     </Layout>

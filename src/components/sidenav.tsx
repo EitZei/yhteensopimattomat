@@ -16,7 +16,11 @@ export default function Sidenav() {
         </h2>
         <Image src={logo} alt="Yhteensopimattomat" priority={true} />
       </Link>
-      <p className="mb-4">{podcastDescription}</p>
+      {podcastDescription.map((part, i) => (
+        <p className="mb-4" key={`description-part-${i}`}>
+          {part}
+        </p>
+      ))}
 
       {false ? (
         <p className="mb-8">

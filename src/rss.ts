@@ -14,7 +14,7 @@ export default async function generateRssFeed(episodes: ReleasedEpisode[]) {
 
   const feedOptions = {
     title: "Yhteensopimattomat",
-    description: podcastDescription,
+    description: podcastDescription.map((part) => `<p>${part}</p>`).join(""),
     site_url: siteUrl,
     feed_url: `${siteUrl}/${feedName}`,
     // image_url: `${siteUrl}/logo.jpeg`, // TODO!

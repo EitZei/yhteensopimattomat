@@ -1,5 +1,7 @@
-export const podcastDescription =
-  "Jokaisella meistä on oma uniikki taustamme, jota vasten tulkitsemme ympäröivää maailmaa ja sen tapahtumia. Ymmärtääksemme toisiamme ja toisenlaisia ajatuksia voimme käydä keskusteluja. Podissa Maija ja Antti tekevät tulkintoja omista lähtökohdistaan yhteiskunnallisista aiheista laajentaakseen omaa ymmärrystään ja virittääkseen kahvipöytäkeskusteluja (ehkä jopa etusivun juttuja). Vaikka näkökulmat voivat aluksi näyttää yhteensopimattomilta, on lopputulos keskusteluista usein jotain yhteensopivampaa…";
+export const podcastDescription = [
+  "Podissa Maija ja Antti tekevät tulkintoja omista lähtökohdistaan yhteiskunnallisista aiheista laajentaakseen omaa ymmärrystään ja virittääkseen kahvipöytäkeskusteluja.",
+  "Taustalla on ajatus siitä, että jokaisella meistä on oma uniikki taustamme, jota vasten tulkitsemme ympäröivää maailmaa ja sen tapahtumia. Keskustelemalla voimme ymmärtää toisiamme ja toisenlaisia ajatuksia.",
+];
 
 /*
 "Kaikkea tai kaikkia ei ole tarkoitettu olemaan yhdessä, tuntumaan samalta tai toimimaan samoin. Samalla ristiriita on luonnonvoima, joka paljastaa ennalta-aavistamattomia ajattelun uria ja luo pysäyttämätöntä liikettä. Kenties lopulta tuo voima vaikuttaa myös sen vapauttaneisiin ja syntyy uutta. Yhteensopivampaa."
