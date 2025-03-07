@@ -1,10 +1,69 @@
 [
   {
-    "title": "Miten tehdään toimivia tietojärjestelmiä?",
+    "title": "Millaiset ihmiset tekevät toimivia tietojärjestelmiä?",
     "description": "Kauden päätösjakso kokoaa yhteen kautta ja Maija ja Antti miettivät miten niitä tietojärjestelmiä sitten pitäisi rakentaa? Koska lopulta kysymys on ihmisistä, niin keskeisenä kysymyksenä on se, minkälainen tiimi pitäisi kasata, jotta saadaan toimiva lopputulos.",
+    "date": "2025-03-03",
     "season": 1,
-    "episode": 8,
-    "released": false
+    "episode": 2,
+    "released": true,
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/S01E02.mp3",
+    "sizeBytes": 59777694,
+    "links": [
+      {
+        "description": "Accelerate: The Science of Lean Software and DevOps -kirja (Amazon)",
+        "url": "https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339"
+      }
+    ],
+    "timestamps": [
+      {
+        "time": "00:00",
+        "description": "Palaute edellisestä jaksosta"
+      },
+      {
+        "time": "01:28",
+        "description": "Mikä on tietojärjestelmä?"
+      },
+      {
+        "time": "05:25",
+        "description": "Tiimin rakentamisesta"
+      },
+      {
+        "time": "15:44",
+        "description": "Oikeaikaiset ratkaisut"
+      },
+      {
+        "time": "20:22",
+        "description": "Tarvitaanko tiimiin keskushenkilö?"
+      },
+      {
+        "time": "24:50",
+        "description": "Koodarien erilaisuudesta"
+      },
+      {
+        "time": "29:21",
+        "description": "Muut kuin insinöörit kehittämässä tietojärjestelmiä"
+      },
+      {
+        "time": "42:40",
+        "description": "Psykologinen turvallisuus"
+      },
+      {
+        "time": "47:26",
+        "description": "Liike mahdollistaa ohjaamisen"
+      },
+      {
+        "time": "47:26",
+        "description": "Liiketoiminta ohjaamassa kehitystä"
+      },
+      {
+        "time": "47:26",
+        "description": "Mahdollisimman pieniä muutoksia mahdollisimman nopeasti"
+      },
+      {
+        "time": "47:26",
+        "description": "Pääteesit"
+      }
+    ]
   },
   {
     "title": "Pilaako digitalisaatio kaiken?",
