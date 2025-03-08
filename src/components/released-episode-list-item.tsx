@@ -61,7 +61,7 @@ export default function ReleasedEpisodeListItem({ episode, isLatest }: Props) {
         </ul>
         {episode.links.length > 0 ? (
           <div>
-            <p className="mb-2">Jaksossa mainittua:</p>
+            <p className="mb-2">Lukusuosituksia:</p>
             <ul className="mb-2">
               {episode.links.map((link, i) => (
                 <li key={`link-${i}`}>
