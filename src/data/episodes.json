@@ -7,13 +7,6 @@
     "released": false
   },
   {
-    "title": "Miksi IT-alalle tarvitaan muitakin kuin insinöörejä?",
-    "description": "Ajattele mielessäsi stereotyyppinen IT-alan työntekijä? Miltä hän näyttää, missä hän on käynyt koulunsa, mitä hän tekee vapaa-ajallaan? IT-alan aikaansaannokset vaikuttavat suureen osaan päivästämme, mutta minkälaiset ihmiset niitä tekevät ja onko sillä vaikutusta lopputulokseen?",
-    "season": 1,
-    "episode": 6,
-    "released": false
-  },
-  {
     "title": "Ovatko älykkäät naiset uhka miehille?",
     "description": "Onko mies ja älykäs nainen aina lupaus konfliktista? Maija ja Antti yrittävät ymmärtää ilmiötä. Onko taustalla naisviha, oma epävarmuus vai jotain monimutkaisempaa?",
     "season": 1,
@@ -39,6 +32,13 @@
     "description": "Aiemmassa jaksossa puhuttiin yhteisistä asioista ja niiden näkymisestä tai näkymättömyydestä arjessa. Tässä jaksossa pureudutaan siihen, mitkä asiat meitä arjessa hiertävät ja missä juuri niistä asioista päätetään ja miten niihin päätöksiin sitten voi vaikuttaa? Vai voiko? Voisiko päätöksenteko muuttua?",
     "season": 1,
     "episode": 2,
+    "released": false
+  },
+  {
+    "title": "Pitääkö olla jatkuvasti tavoitettavissa?",
+    "description": "Vielä muutama vuosikymmen sitten olimme tavoitettavissa vain kotoa ja nykyään 24/7 kaikkialta. Samalla oletukset tavoitettavuudesta ovat muuttuneet. Saatamme harmistua tai huolestua, jos emme saa toista kiinni välittömästi. Maija ja Antti pohtivat, miten odotusten muuttuminen on vaikuttanut heihin niin kotona kuin töissä ja miten he ovat sopeutuneet tähän muutokseen.",
+    "season": 1,
+    "episode": 6,
     "released": false
   },
   {
