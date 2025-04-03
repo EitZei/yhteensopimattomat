@@ -38,8 +38,71 @@
     "title": "Pitääkö olla jatkuvasti tavoitettavissa?",
     "description": "Vielä muutama vuosikymmen sitten olimme tavoitettavissa vain kotoa ja nykyään 24/7 kaikkialta. Samalla oletukset tavoitettavuudesta ovat muuttuneet. Saatamme harmistua tai huolestua, jos emme saa toista kiinni välittömästi. Maija ja Antti pohtivat, miten odotusten muuttuminen on vaikuttanut heihin niin kotona kuin töissä ja miten he ovat sopeutuneet tähän muutokseen.",
     "season": 1,
-    "episode": 6,
-    "released": false
+    "episode": 3,
+    "released": true,
+    "date": "2025-04-03",
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/S01E03.mp3",
+    "sizeBytes": 63358141,
+    "links": [
+      {
+        "description": "37 Signals yrityksen ohje sisäiseen kommunikaatioon",
+        "url": "https://37signals.com/how-we-communicate"
+      },
+      {
+        "description": "Pomodoro-tekniikka",
+        "url": "https://fi.wikipedia.org/wiki/Pomodoro-tekniikka"
+      }
+    ],
+    "timestamps": [
+      {
+        "time": "00:13",
+        "description": "Edellisen jakson palaute"
+      },
+      {
+        "time": "01:57",
+        "description": "Jakson aihe"
+      },
+      {
+        "time": "03:15",
+        "description": "Lankapuhelimet ja puhelut"
+      },
+      {
+        "time": "08:24",
+        "description": "Onko soittaminen vallankäyttöä?"
+      },
+      {
+        "time": "10:36",
+        "description": "Pitääkö äänet tai ilmoitukset olla päällä?"
+      },
+      {
+        "time": "15:35",
+        "description": "Viesteihin vastaaminen"
+      },
+      {
+        "time": "19:11",
+        "description": "Viestintäkulttuuri"
+      },
+      {
+        "time": "24:11",
+        "description": "Kaikki ei ole kaikkialla"
+      },
+      {
+        "time": "27:12",
+        "description": "Keskeyttämisestä"
+      },
+      {
+        "time": "30:56",
+        "description": "Kontekstitietoisuus ja läsnäolo"
+      },
+      {
+        "time": "35:34",
+        "description": "Yhteenveto keskustelusta"
+      },
+      {
+        "time": "39:27",
+        "description": "Voiko kommunikaatiota olla liikaa?"
+      }
+    ]
   },
   {
     "title": "Millaiset ihmiset tekevät toimivia tietojärjestelmiä?",
