@@ -33,67 +33,57 @@
     "season": 1,
     "episode": 4,
     "released": true,
-    "date": "2025-04-29",
-    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/S01E03.mp3",
-    "sizeBytes": 63358141,
-    "links": [
-      {
-        "description": "37 Signals yrityksen ohje sisäiseen kommunikaatioon",
-        "url": "https://37signals.com/how-we-communicate"
-      },
-      {
-        "description": "Pomodoro-tekniikka",
-        "url": "https://fi.wikipedia.org/wiki/Pomodoro-tekniikka"
-      }
-    ],
+    "date": "2025-05-01",
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/S01E04.mp3",
+    "sizeBytes": 65870285,
     "timestamps": [
       {
-        "time": "00:13",
-        "description": "Edellisen jakson palaute"
+        "time": "01:25",
+        "description": "Individualismi ja sen näkyminen arjen valinnoissa"
       },
       {
-        "time": "01:57",
-        "description": "Jakson aihe"
+        "time": "04:00",
+        "description": "Helppo elämä ostettavissa"
       },
       {
-        "time": "03:15",
-        "description": "Lankapuhelimet ja puhelut"
+        "time": "08:33",
+        "description": "Pop-up kitarakurssit"
       },
       {
-        "time": "08:24",
-        "description": "Onko soittaminen vallankäyttöä?"
+        "time": "12:30",
+        "description": "Miten meidän tapa olla vie maailmaa etenpäin?"
       },
       {
-        "time": "10:36",
-        "description": "Pitääkö äänet tai ilmoitukset olla päällä?"
+        "time": "14:46",
+        "description": "Miten kuluttajuus vaikuttaa meidän ajatteluumme?"
       },
       {
-        "time": "15:35",
-        "description": "Viesteihin vastaaminen"
+        "time": "16:41",
+        "description": "Tarvitaanko meitä tulevaisuudessa?"
       },
       {
-        "time": "19:11",
-        "description": "Viestintäkulttuuri"
+        "time": "22:34",
+        "description": "Luovan työn automatisointi"
       },
       {
-        "time": "24:11",
-        "description": "Kaikki ei ole kaikkialla"
+        "time": "25:22",
+        "description": "Luodaanko me enää mitään uutta?"
       },
       {
-        "time": "27:12",
-        "description": "Keskeyttämisestä"
+        "time": "27:38",
+        "description": "Onko elämässä järkeä?"
       },
       {
-        "time": "30:56",
-        "description": "Kontekstitietoisuus ja läsnäolo"
+        "time": "34:39",
+        "description": "Pitäisikö olla vain tyytyväinen?"
       },
       {
-        "time": "35:34",
-        "description": "Yhteenveto keskustelusta"
+        "time": "35:22",
+        "description": "Miten suuryrityksiä vastaan voi nousta?"
       },
       {
-        "time": "39:27",
-        "description": "Voiko kommunikaatiota olla liikaa?"
+        "time": "41:24",
+        "description": "Loppukeskustelu"
       }
     ]
   },
