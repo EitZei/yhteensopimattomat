@@ -9,8 +9,8 @@
   {
     "title": "Ovatko älykkäät naiset uhka miehille?",
     "description": "Onko mies ja älykäs nainen aina lupaus konfliktista? Maija ja Antti yrittävät ymmärtää ilmiötä. Onko taustalla naisviha, oma epävarmuus vai jotain monimutkaisempaa?",
-    "season": 1,
     "episode": 5,
+    "season": 1,
     "released": false
   },
   {
@@ -21,18 +21,72 @@
     "released": false
   },
   {
-    "title": "Mikä ihmeen kuluttajaidentiteetti?",
-    "description": "Onko kuluttajuudesta muodostunut meille liian keskeinen identiteetti? Voiko kaiken ostaa palveluna? Katsommeko asioita liiaksi sen linssin läpi, joka saa meitä kysymään ainoastaan \"Mitä tässä on minulle?\"",
-    "season": 1,
-    "episode": 3,
-    "released": false
-  },
-  {
     "title": "Milloin on oikea aika vaikuttaa?",
     "description": "Aiemmassa jaksossa puhuttiin yhteisistä asioista ja niiden näkymisestä tai näkymättömyydestä arjessa. Tässä jaksossa pureudutaan siihen, mitkä asiat meitä arjessa hiertävät ja missä juuri niistä asioista päätetään ja miten niihin päätöksiin sitten voi vaikuttaa? Vai voiko? Voisiko päätöksenteko muuttua?",
     "season": 1,
     "episode": 2,
     "released": false
+  },
+  {
+    "title": "Onko tällaisessa elämässä mitään järkeä?",
+    "description": "Meidän ei ole enää pakko osata tai tehdä kaikkea itse selviytyäksemme arjesta. Riittää, että meillä on osaamista, mistä joku on valmis maksamaan ja sen jälkeen voimme ostaa tarvitsemamme asiat ja käyttää aikaamme omien mielihalujemme tyydyttämiseen. Miksi Antti ja Maija eivät koe tällaista elämää tyydyttävänä?",
+    "season": 1,
+    "episode": 4,
+    "released": true,
+    "date": "2025-05-02",
+    "url": "https://yhteensopimattomat.s3.eu-north-1.amazonaws.com/episodes/S01E04.mp3",
+    "sizeBytes": 65870285,
+    "links": [],
+    "timestamps": [
+      {
+        "time": "01:25",
+        "description": "Individualismi ja sen näkyminen arjen valinnoissa"
+      },
+      {
+        "time": "04:00",
+        "description": "Helppo elämä ostettavissa"
+      },
+      {
+        "time": "08:33",
+        "description": "Pop-up kitarakurssit"
+      },
+      {
+        "time": "12:30",
+        "description": "Miten meidän tapa olla vie maailmaa etenpäin?"
+      },
+      {
+        "time": "14:46",
+        "description": "Miten kuluttajuus vaikuttaa meidän ajatteluumme?"
+      },
+      {
+        "time": "16:41",
+        "description": "Tarvitaanko meitä tulevaisuudessa?"
+      },
+      {
+        "time": "22:34",
+        "description": "Luovan työn automatisointi"
+      },
+      {
+        "time": "25:22",
+        "description": "Luodaanko me enää mitään uutta?"
+      },
+      {
+        "time": "27:38",
+        "description": "Onko elämässä järkeä?"
+      },
+      {
+        "time": "34:39",
+        "description": "Pitäisikö olla vain tyytyväinen?"
+      },
+      {
+        "time": "35:22",
+        "description": "Miten suuryrityksiä vastaan voi nousta?"
+      },
+      {
+        "time": "41:24",
+        "description": "Loppukeskustelu"
+      }
+    ]
   },
   {
     "title": "Pitääkö olla jatkuvasti tavoitettavissa?",
